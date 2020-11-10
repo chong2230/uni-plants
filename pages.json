@@ -1,0 +1,56 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+			}
+		}
+	    ,{
+            "path" : "pages/flower/flower",
+            "style" : {
+				
+			}
+        }
+        ,{
+            "path" : "pages/food/food",
+            "style" : {
+				
+			}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "走进植物",
+		"navigationBarBackgroundColor": "#61c26a",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#CCCCCC",
+		"selectedColor": "#61c26a",
+		"borderStyle": "white",
+		"list": [{
+	    "selectedIconPath": "static/icon/tree-active.png",
+	    "iconPath": "static/icon/tree.png",
+	    "pagePath": "pages/index/index",
+	    "text": "树木"
+	  },
+	  {
+	    "selectedIconPath": "static/icon/flower-active.png",
+	    "iconPath": "static/icon/flower.png",
+	    "pagePath": "pages/flower/flower",
+	    "text": "花卉"
+	  },
+	  {
+	    "selectedIconPath": "static/icon/food-active.png",
+	    "iconPath": "static/icon/food.png",
+	    "pagePath": "pages/food/food",
+	    "text": "食用"
+	  }
+		]
+	}
+}
